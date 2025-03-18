@@ -1,0 +1,175 @@
+@media only screen and (max-width: 350px) {
+  .header {
+    flex-direction: column;
+  }
+  .navbar {
+    flex-direction: column;
+    height: 200px;
+    width: 170px;
+    justify-content: space-evenly;
+  }
+  .home {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .round {
+    height: 250px;
+    width: 250px;
+  }
+  .container {
+    padding: 74px;
+  }
+  .round-2 {
+    display: none;
+  }
+  .main-text h2 {
+    font-size: 40px;
+  }
+
+  .about {
+    flex-direction: row-reverse;
+    margin-left: 30px;
+  }
+  .container1 {
+    margin: 0;
+    padding: 90px 10px;
+  }
+  .contact {
+    display: revert;
+    position: relative;
+  }
+  .contact h2 {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .header {
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    left: -14;
+    top: 0;
+    padding: 20px 10px;
+    display: flex;
+    align-items: baseline;
+  }
+  .navbar {
+    flex-direction: column;
+    height: 350px;
+    width: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    padding: 24px;
+  }
+  .navbar a{
+    color:black
+  }
+  .home {
+    justify-content: ceter;
+    flex-direction: column-reverse;
+  }
+  .round {
+    height: 250px;
+    width: 250px;
+  }
+  .container {
+    padding: 74px;
+  }
+  .round-2 {
+    display: none;
+  }
+  .main-text h2 {
+    font-size: 40px;
+  }
+
+  .about {
+    flex-direction: row-reverse;
+    margin-left: 30px;
+  }
+  .container1 {
+    margin: 0;
+    padding: 90px 10px;
+    /* width: auto; */
+  }
+  .contact {
+    display: revert;
+    position: relative;
+  }
+  .contact h2 {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 1080px) {
+  .header {
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    left: -14;
+    top: 0;
+    padding: 20px 10px;
+    display: flex;
+    align-items: baseline;
+  }
+  .navbar {
+    flex-direction: row;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    padding: 24px;
+    margin-top: 3%;
+  }
+  .home {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .round {
+    height: 450px;
+    width: 450px;
+  }
+  .container {
+    padding: 74px;
+  }
+  .round-2 {
+    display: none;
+  }
+  .container1 {
+    height: 400px;
+    width: 500px;
+  }
+  .section {
+    display: grid;
+  }
+  .main-text h2 {
+    font-size: 40px;
+  }
+
+  .about {
+    flex-direction: row-reverse;
+    margin-left: 30px;
+  }
+  /* .container1{
+        margin: 0;
+        padding: 90px 10px;
+        width: auto; */
+  /* } */
+  .contact {
+    display: revert;
+    position: relative;
+  }
+  .contact h2 {
+    font-size: 50px;
+  }
+  .contact-form input,
+  .form .textarea {
+    height: 40px;
+    width: 70%;
+  }
+  .contact-form textarea {
+    resize: none;
+    height: 150px;
+    width: 70%;
+  }
+}
