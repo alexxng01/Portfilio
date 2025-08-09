@@ -8,6 +8,7 @@
     width: 170px;
     justify-content: space-evenly;
   }
+
   .home {
     justify-content: center;
     flex-direction: column-reverse;
@@ -25,7 +26,11 @@
   .main-text h2 {
     font-size: 40px;
   }
-
+  .burger {
+    display: block;
+    opacity: 1;
+    z-index: 101;
+  }
   .about {
     flex-direction: row-reverse;
     margin-left: 30px;
@@ -49,24 +54,89 @@
     position: fixed;
     left: -14;
     top: 0;
+    background-color: #071b27;
     padding: 20px 10px;
     display: flex;
     align-items: baseline;
   }
-  .navbar {
+ 
+    .navbar {
+    display: none;
     flex-direction: column;
-    height: 350px;
-    width: 170px;
-    display: flex;
-    justify-content: space-evenly;
+    background: rgb(7, 27, 39);
     position: absolute;
-    padding: 24px;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    text-align: center;
   }
-  .navbar a{
-    color:black
+  .navbar.v-class-resp {
+    display: flex;
+  }
+  .burger {
+    display: block;
+    opacity: 1;
+    z-index: 101;
+  }
+  .navbar a {
+    margin: 10px 0;
+    font-size: 18px;
   }
   .home {
-    justify-content: ceter;
+    flex-direction: column;
+    padding: 100px 5% 0;
+  }
+  .home-content h1 {
+    font-size: 36px;
+  }
+  .home-content h3 {
+    font-size: 22px;
+  }
+  .home-content p {
+    font-size: 16px;
+  }
+  .home-sci a {
+    margin: 20px 10px;
+  }
+  .round,
+  .round-2 {
+    height: 250px;
+    width: 250px;
+  }
+  .about-text h2 {
+    font-size: 40px;
+  }
+  .about-text h4 {
+    font-size: 20px;
+  }
+  .about-text p {
+    font-size: 16px;
+  }
+  .container {
+    padding: 40px 20px;
+  }
+  .services-list {
+    grid-template-columns: 1fr;
+  }
+  .portfolio-content {
+    grid-template-columns: 1fr;
+  }
+  .contact {
+    grid-template-columns: 1fr;
+    padding: 0px;
+  }
+  .contact h2 {
+    font-size: 50px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+.none{
+  display: none;
+}
+
+  .home {
     flex-direction: column-reverse;
   }
   .round {
@@ -74,7 +144,7 @@
     width: 250px;
   }
   .container {
-    padding: 74px;
+    padding: 47px;
   }
   .round-2 {
     display: none;
@@ -82,19 +152,28 @@
   .main-text h2 {
     font-size: 40px;
   }
-
+.main-text{
+  margin-top: 40px;
+}
   .about {
     flex-direction: row-reverse;
-    margin-left: 30px;
+    width: 100vw;
+    gap: 0;
+    height: auto;
+    align-items: stretch;
+    margin: 42px 11px;
   }
   .container1 {
     margin: 0;
-    padding: 90px 10px;
-    /* width: auto; */
+   padding: 44px 28px
   }
   .contact {
     display: revert;
     position: relative;
+    margin: 30px;
+  }
+  .sub-title{
+        padding-bottom: 20px;
   }
   .contact h2 {
     font-size: 50px;
@@ -173,3 +252,4 @@
     width: 70%;
   }
 }
+
