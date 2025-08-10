@@ -35,6 +35,7 @@ body {
 .navbar {
   transition: all 0.7s ease-out;
   height: auto;
+  display: none;
 }
 
 .navbar a {
@@ -75,7 +76,7 @@ body {
 }
 
 .v-class-resp {
-  opacity: 1;
+   display: block;
 }
 .home {
   position: relative;
@@ -153,6 +154,7 @@ body {
   letter-spacing: 1px;
   text-decoration: none;
   font-weight: 600;
+  margin: 40px;
   opacity: 0;
   animation: slideTop 1s ease forwards;
   animation-delay: 2s;
@@ -183,9 +185,8 @@ body {
 
 .about {
   display: flex;
-  grid-template-columns: repeat(2, 1fs);
   align-items: center;
-  height: 700px;
+  height: auto;
   gap: 6.5rem;
   margin: 0 62px;
   background: rgb(7, 27, 39) no-repeat;
@@ -211,12 +212,7 @@ body {
   line-height: 1.2;
   margin: 15px 0 30px;
 }
-.about-text p {
-  color: white;
-  font-size: 20px;
-  line-height: 1.4;
-  margin-bottom: 4rem;
-}
+
 .services {
   color: white;
   font-size: 20px;
@@ -292,14 +288,16 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+
+
 section {
   display: grid;
 }
 .container1 {
-  width: 500px;
+ 
   height: 400px;
   padding: 75px 90px;
-  margin-left: 120px;
+  margin: auto;
 }
 .heading1 {
   text-align: center;
@@ -311,6 +309,7 @@ section {
 .bar {
   font-size: 23px;
 }
+
 .Techinical-bars.bar {
   margin: 40px 0;
 }
@@ -367,6 +366,34 @@ section {
 .progress-line.RESPONSIVE span {
   width: 90%;
 }
+.progress-line.Python span {
+  width: 90%;
+}
+.progress-line.DotNet span {
+  width: 90%;
+}
+.progress-line.CPP span {
+  width: 90%;
+}
+.progress-line.MySQL span {
+  width: 90%;
+}
+.progress-line.CSharp span {
+  width: 90%;
+}
+.progress-line.Figma span {
+  width: 90%;
+}
+.progress-line.UIUX span {
+  width: 90%;
+}
+.progress-line.Git span {
+  width: 90%;
+}
+.progress-line.VSCode span {
+  width: 90%;
+}
+
 .progress-line span::after {
   position: absolute;
   padding: 1px 8px;
@@ -390,6 +417,33 @@ section {
 }
 .progress-line.RESPONSIVE span::after {
   content: "90%";
+}
+.progress-line.Python span::after {
+  content: "70%";
+}
+.progress-line.DotNet span::after {
+  content: "70%";
+}
+.progress-line.CPP span::after {
+  content: "70%";
+}
+.progress-line.MySQL span::after {
+  content: "70%";
+}
+.progress-line.CSharp span::after {
+  content: "70%";
+}
+.progress-line.Figma span::after {
+  content: "70%";
+}
+.progress-line.UIUX span::after {
+  content: "70%";
+}
+.progress-line.Git span::after {
+  content: "70%";
+}
+.progress-line.VSCode span::after {
+  content: "70%";
 }
 .progress-line span::before {
   content: "";

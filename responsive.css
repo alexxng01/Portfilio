@@ -1,17 +1,31 @@
 @media only screen and (max-width: 350px) {
   .header {
     flex-direction: column;
+    opacity: 0;
   }
   .navbar {
+      display: none;
     flex-direction: column;
     height: 200px;
     width: 170px;
     justify-content: space-evenly;
   }
+.Techinical-bars{
+  flex-direction: column;
+}
+.learning-badges{
+  display: grid;
 
+  grid-template-columns: 1fr 1fr;
+  gap: 20%;
+}
   .home {
     justify-content: center;
     flex-direction: column-reverse;
+  }
+  .para{
+    display: flex;
+    flex-direction: column;
   }
   .round {
     height: 250px;
@@ -59,7 +73,10 @@
     display: flex;
     align-items: baseline;
   }
- 
+   .para{
+    display: flex;
+    flex-direction: column;
+  }
     .navbar {
     display: none;
     flex-direction: column;
@@ -70,6 +87,11 @@
     width: 100%;
     text-align: center;
   }
+
+
+.Techinical-bars{
+flex-direction: column;
+}
   .navbar.v-class-resp {
     display: flex;
   }
@@ -190,7 +212,22 @@
     display: flex;
     align-items: baseline;
   }
+    .para{
+    display: flex;
+    flex-direction: column;
+  }
+  .Techinical-bars{
+  flex-direction: column
+}
+;
+.learning-badges{
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  gap: 20%;
+}
   .navbar {
+      display: none;
     flex-direction: row;
     height: 350px;
     width: 100%;

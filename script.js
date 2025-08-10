@@ -20,6 +20,8 @@ burger.addEventListener("click", () => {
 
 });
 
+
+
  const form = document.getElementById('contactForm');
 const messageDiv = document.getElementById('formMessage');
 
