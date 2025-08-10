@@ -89,6 +89,7 @@ body {
   display: flex;
   align-items: center;
   padding: 70px 3% 0;
+   margin-top: 60px;
 }
 .home-content {
   max-width: 600px;
@@ -182,7 +183,9 @@ body {
   box-shadow: 0 0 5px #0ef, 0 0 25px, 0 0 50px cyan, 0 0 100px cyan,
     0 0 200px cyan;
 }
-
+.hero-buttons{
+  margin: 20px;
+}
 .about {
   display: flex;
   align-items: center;
