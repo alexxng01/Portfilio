@@ -184,6 +184,8 @@ body {
 }
 .hero-buttons{
   margin: 20px;
+  display: flex
+;
 }
 .about {
   display: flex;

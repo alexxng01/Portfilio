@@ -3,6 +3,9 @@
     flex-direction: column;
     opacity: 0;
   }
+  .btn-box  {
+    padding: 7px 14px;
+  }
   .navbar {
       display: none;
     flex-direction: column;
@@ -72,6 +75,9 @@
     padding: 20px 10px;
     display: flex;
     align-items: baseline;
+  }
+    .btn-box  {
+    padding: 7px 14px;
   }
    .para{
     display: flex;
@@ -215,6 +221,9 @@ flex-direction: column;
     .para{
     display: flex;
     flex-direction: column;
+  }
+    .btn-box  {
+    padding: 7px 14px;
   }
   .Techinical-bars{
   flex-direction: column
