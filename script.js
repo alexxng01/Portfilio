@@ -78,3 +78,16 @@ form.addEventListener('submit', function(e) {
 });
 
 
+
+
+
+// download
+document.getElementById('downloadCvBtn').addEventListener('click', () => {
+  const link = document.createElement('a');
+  link.href = 'cv/cv-3.docx';  // PDF version of your CV
+  link.download = 'RahulMahato_CV.docx'; // PDF filename to save as
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+});
+
