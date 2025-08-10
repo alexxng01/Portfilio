@@ -154,9 +154,7 @@ flex-direction: column;
   .contact-form textarea {
     width: 100%;
   }
-.none{
-  display: none;
-}
+
 
   .home {
     flex-direction: column-reverse;
